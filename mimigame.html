@@ -7,6 +7,7 @@
     <style>
     	* { padding: 0; margin: 0; }
     	canvas { background: rgb(255, 231, 239); display: block; margin: 0 auto; }
+        body {background-image: url(images-game/oboi1.png); }
     </style>
 </head>
 <body>
@@ -36,7 +37,7 @@ var brickRowCount = 4;
 var brickColumnCount = 7;
 
 var brickWidth = 75;
-var brickHeight = 20;
+var brickHeight = 25;
 
 var brickPadding = 10;
 var brickOffsetTop = 30;
@@ -106,6 +107,7 @@ function collisionDetection() {
     }
 }
 
+
 function drawScore() {
     ctx.font = "16px Arial";
     ctx.fillStyle = "#FF2D6B";
@@ -128,7 +130,7 @@ function drawBricks() {
                 bricks[c][r].y = brickY;
                 ctx.beginPath();
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);
-                ctx.fillStyle = "#FF2D6B";
+                ctx.fillStyle =HTMLPictureElement(URL);
                 ctx.fill();
                 ctx.closePath();
             }
