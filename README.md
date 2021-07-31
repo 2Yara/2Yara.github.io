@@ -1,2 +1,2 @@
 # 2Yara.github.io
-sdvssladhosfhdsihf
+эх щас бы пиццы
