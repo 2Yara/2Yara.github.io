@@ -3,7 +3,7 @@
     color: rgb(255, 229, 237);
     font-size: 80px;
     display: block; /* Для старых браузеров */
-    height: 80px; /* Высота шапки */
+    height: 100px; /* Высота шапки */
     background-color: rgb(236, 124, 159);
 
 }
@@ -12,7 +12,7 @@
     color: rgb(179, 32, 32);
     display: block;
     font-size: 30px;
-    height: 80px;
+    height: 50px;
     background-color: rgb(236, 124, 159);
 
 }
@@ -33,10 +33,33 @@
     padding-inline: 130px;
 }
 
+.top {
+    width: 400px;
+    background-color: rgb(243, 045, 107);
+    display: block;
+    color: rgb(255, 247, 249);
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: Serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: auto;
+    float: right;
+}
+
+.news {
+    font-size: 25px;
+    color: rgb(161, 12, 60);
+    display: block;
+    width: 1000px;
+    height: 1200px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    float:left;
+}
+
 body {
-    background-color:rgb(255, 231, 239);
-    color: rgb(179, 32, 32);
-    text-anchor: middle;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: rgb(255, 231, 239);
 }
 
